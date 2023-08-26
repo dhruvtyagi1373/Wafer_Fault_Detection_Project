@@ -6,7 +6,7 @@ from src.components.model_trainer import ModelTrainer
 from src.exception import CustomException
 
 
-class TrainPipeline:
+class TrainingPipeline:
     def __init__(self) -> None:
         self.data_ingestion = DataIngestion()
 
